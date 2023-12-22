@@ -1,0 +1,51 @@
+/* TransactionSearch.css */
+.transaction-search {
+    display: flex;
+    /* margin-left: 15px; */
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    margin-left: 15px;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    margin-left: 10px;
+  }
+  option{
+    padding: 8px;
+  }
+  
+  select,
+  input {
+    width: 130px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #ced4da;
+    padding: 6px;
+  }
+  
+  .search-button {
+    position: absolute;
+    top: 10%;
+    right: 25px;
+    background-color:white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #c3c5c7;
+  }

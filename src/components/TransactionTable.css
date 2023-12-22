@@ -1,0 +1,80 @@
+/* TransactionTable.css */
+.transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: grey;
+    
+
+  }
+  
+  .transaction-table th, .transaction-table td {
+    border-bottom: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    padding: 20px;
+
+  }
+  
+  .transaction-table th {
+    background-color: #faf8f8; /* Header background color set to white */
+    color: #000000; /* Header text color */
+    font-size: 12px;
+    border-right: none; /* Remove right border on headers */
+    padding: 5px;
+    padding-left: 15px;
+    
+  }
+  
+  .transaction-table td {
+    background-color: #ffffff; /* Data cell background color set to white */
+    border-right: none; /* Remove right border on data cells */
+   padding: 10px;
+   font-size: 12px;
+   padding-left: 15px;
+  }
+  
+  .transaction-table tr {
+    background-color: #ffffff; /* Row background color set to white */
+    height: 10px;
+    
+  }
+  
+  .transaction-table tr:hover {
+    background-color: #faf8f8; /* Hover background color */
+  }
+  .transaction-table p{
+    margin-top: auto;
+  }
+
+  .transaction-table button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .transaction-table button:hover {
+    background-color: #c82333;
+  }
+  
+
+
+  /* TransactionTable.css */
+.close-icon {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  line-height: 12px;
+  text-align: center;
+  border-radius: 50%;
+  border: 2px solid #000000 ;
+  background-color: white; 
+  color: #000000;
+  cursor: pointer;
+}
+
+.close-icon:hover {
+  background-color: #d4cfcf; /* Hover background color */
+}
